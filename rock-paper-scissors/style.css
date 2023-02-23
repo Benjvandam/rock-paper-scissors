@@ -1,0 +1,29 @@
+.text-container{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+#displayResult, #score {
+    display: block;
+    text-align: center;
+  }
+
+.button-container{
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+}
+
+button{
+    background-color: #3882F6;
+    padding: 8px;
+    color: white;
+    font-weight: 800;
+    margin-left: 12px;
+    text-decoration: none;
+    border-radius: 12px;
+    flex: 0 1 auto;
+}
